@@ -1,0 +1,16 @@
+.toggle-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+
+.toggle-disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+}
